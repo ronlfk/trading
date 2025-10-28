@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BREAKING THE SILENCE</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eliyoz Gaming LTD</title>
   <style>
-    /* כללי */
     body {
       margin: 0;
-      padding: 0;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #f0f4ff, #e0e7ff);
-      color: #222;
+      font-family: 'Poppins', sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
     }
 
     header {
-      background: #3f51b5;
+      background: linear-gradient(90deg, #000428, #004e92);
+      padding: 20px 0;
       color: white;
-      padding: 20px;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.15);
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+      font-size: 1.8em;
       font-weight: 700;
+      letter-spacing: 1px;
     }
 
     nav {
@@ -39,119 +30,153 @@
       margin: 0 15px;
       text-decoration: none;
       color: white;
-      font-weight: 500;
-      font-size: 1.2rem;
-      padding: 8px 15px;
+      background-color: #005eff;
+      padding: 10px 20px;
       border-radius: 30px;
+      font-weight: 500;
       transition: background 0.3s;
     }
 
     nav a:hover {
-      background: rgba(255, 255, 255, 0.2);
+      background-color: #007bff;
     }
 
-    main {
-      max-width: 1000px;
+    section {
+      max-width: 900px;
       margin: 40px auto;
+      text-align: left;
       padding: 0 20px;
-    }
-
-    .section {
-      display: none;
-      background: white;
-      padding: 30px;
-      border-radius: 16px;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-      margin-bottom: 40px;
-      animation: fadeIn 0.5s ease-in-out;
-    }
-
-    .section.active {
-      display: block;
+      line-height: 1.8;
     }
 
     h2 {
-      font-size: 2rem;
-      color: #3f51b5;
-      margin-bottom: 15px;
+      color: #009dff;
     }
 
-    p {
-      font-size: 1.2rem;
-      line-height: 1.7;
-      margin-bottom: 20px;
+    footer {
+      background: #0a0a0a;
+      color: #aaa;
+      padding: 30px 0;
+      font-size: 0.9em;
+      margin-top: 60px;
     }
 
-    .contact-box {
-      background: #e8eaf6;
-      padding: 20px;
-      border-radius: 12px;
-      text-align: center;
-      margin-top: 30px;
-      font-size: 1.1rem;
-      font-weight: 500;
-    }
-
-    .contact-box strong {
-      color: #3f51b5;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+    footer a {
+      color: #009dff;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>BREAKING THE SILENCE</h1>
+    Eliyoz Gaming LTD
     <nav>
-      <a href="#" onclick="showSection('home')">Home</a>
-      <a href="#" onclick="showSection('about')">About</a>
-      <a href="#" onclick="showSection('privacy')">Privacy</a>
-      <a href="#" onclick="showSection('terms')">Terms</a>
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Use</a>
     </nav>
   </header>
 
-  <main>
-    <div id="home" class="section active">
-      <h2>Welcome to BREAKING THE SILENCE</h2>
-      <p>We’re an independent mobile game studio based in Israel. Our passion is creating simple yet highly addictive hyper-casual games that anyone can enjoy, anytime and anywhere.</p>
-      <p>Our mission: deliver quick, fun gaming experiences right at your fingertips.</p>
-      <div class="contact-box">
-        Questions or feedback? <br>
-        Contact us: <strong>itayhiyim@gmail.com</strong>
-      </div>
-    </div>
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p>
+      At Eliyoz Gaming LTD, we value your privacy and are committed to protecting your personal data.
+      This Privacy Policy explains how we collect, use, disclose, and safeguard your information when
+      you use our games, websites, and services.
+    </p>
+    <p>
+      <strong>Information We Collect:</strong>  
+      We may collect personal data such as your username, email, device information, gameplay statistics,
+      and preferences. In addition, we may collect non-personal data through cookies and analytics tools
+      to improve user experience and game performance.
+    </p>
+    <p>
+      <strong>How We Use Information:</strong>  
+      We use your information to deliver and maintain our games, provide customer support, personalize
+      content, communicate updates, and ensure a safe gaming environment. We may also use anonymized data
+      for analytical and improvement purposes.
+    </p>
+    <p>
+      <strong>Third-Party Services:</strong>  
+      Our games may include links or integrations with third-party platforms such as ad networks or
+      analytics providers. These third parties may collect data according to their own privacy policies.
+      We recommend reviewing their terms before using their services.
+    </p>
+    <p>
+      <strong>Data Retention:</strong>  
+      We retain your information only for as long as necessary to fulfill the purposes outlined in this
+      policy unless a longer retention period is required or permitted by law.
+    </p>
+    <p>
+      <strong>Children’s Privacy:</strong>  
+      Our games are intended for general audiences but may not be suitable for children under 13 without
+      parental consent. We do not knowingly collect personal information from children.
+    </p>
+    <p>
+      <strong>Your Rights:</strong>  
+      Depending on your location, you may have the right to access, correct, or delete your data, as well
+      as to object to certain processing activities.
+    </p>
+    <p>
+      <strong>Contact Us:</strong>  
+      If you have any questions about this Privacy Policy, you can contact us at  
+      <a href="mailto:cohenyehoshuayigal@gmail.com">cohenyehoshuayigal@gmail.com</a>.
+    </p>
+  </section>
 
-    <div id="about" class="section">
-      <h2>About Us</h2>
-      <p>Plastica is a team of creative developers dedicated to hyper-casual entertainment. We design games that are quick to learn, fun to play, and hard to put down. Whether you’ve got five minutes or a whole evening, our games are made to bring joy.</p>
-      <p>We’re driven by creativity, minimalism, and innovation, striving to craft the next big tap-to-play hit.</p>
-      <p>Contact: <a href="mailto:gilonaria70@gmail.com">itayhiyim@gmail.com</a></p>
-    </div>
+  <section id="terms">
+    <h2>Terms of Use</h2>
+    <p>
+      Welcome to Eliyoz Gaming LTD! By accessing or using our games, websites, and services, you agree to
+      be bound by these Terms of Use. Please read them carefully before using our products.
+    </p>
+    <p>
+      <strong>License:</strong>  
+      We grant you a personal, non-exclusive, non-transferable, revocable license to use our games for
+      entertainment purposes only, subject to these Terms.
+    </p>
+    <p>
+      <strong>Prohibited Activities:</strong>  
+      You agree not to reverse-engineer, modify, distribute, or exploit our games for commercial gain.
+      You also agree not to engage in any form of cheating, hacking, or data manipulation.
+    </p>
+    <p>
+      <strong>Virtual Items:</strong>  
+      Some games may offer virtual currencies, items, or rewards. These have no real-world monetary value
+      and cannot be exchanged for real money or goods.
+    </p>
+    <p>
+      <strong>Intellectual Property:</strong>  
+      All game content, trademarks, and assets are owned or licensed by Eliyoz Gaming LTD. Unauthorized
+      use is strictly prohibited.
+    </p>
+    <p>
+      <strong>Disclaimer of Warranty:</strong>  
+      Our games are provided “as is” without warranties of any kind. We do not guarantee that gameplay will
+      be error-free or uninterrupted.
+    </p>
+    <p>
+      <strong>Limitation of Liability:</strong>  
+      Eliyoz Gaming LTD shall not be held liable for any damages arising from your use or inability to use
+      our products, to the fullest extent permitted by law.
+    </p>
+    <p>
+      <strong>Updates and Modifications:</strong>  
+      We may update these Terms from time to time. Your continued use of our services constitutes acceptance
+      of any updated terms.
+    </p>
+    <p>
+      <strong>Governing Law:</strong>  
+      These Terms are governed by the laws of the State of Israel, and any disputes will be subject to the
+      jurisdiction of Israeli courts.
+    </p>
+    <p>
+      For questions about these Terms, please contact us at  
+      <a href="mailto:cohenyehoshuayigal@gmail.com">cohenyehoshuayigal@gmail.com</a>.
+    </p>
+  </section>
 
-    <div id="privacy" class="section">
-      <h2>Privacy Policy</h2>
-      <p>Our apps are built and maintained as ad-supported experiences. We do not collect personal information. However, third-party services such as Unity and Google Play Services may collect anonymized data to enhance performance and deliver ads.</p>
-      <p>We respect your privacy and do not store personal data. For more information, please review the privacy policies of our partners.</p>
-    </div>
-
-    <div id="terms" class="section">
-      <h2>Terms of Use</h2>
-      <p>By using our app, you agree not to copy, modify, or redistribute it. Any misuse, including cheating or tampering, may lead to revoked access.</p>
-      <p>Our games are intended for casual entertainment. Internet connectivity may be required for full functionality. Users are responsible for data usage and device security.</p>
-      <p>We reserve the right to update or remove access to the app at any time without notice.</p>
-    </div>
-  </main>
-
-  <script>
-    function showSection(id) {
-      document.querySelectorAll(".section").forEach(s => s.classList.remove("active"));
-      document.getElementById(id).classList.add("active");
-    }
-  </script>
+  <footer>
+    <p>© 2025 Eliyoz Gaming LTD. All rights reserved.</p>
+  </footer>
 </body>
 </html>
-
-
